@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Abid Rahman</title>
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <link rel="icon" href="Logo.png">
+        <script defer src="app.js"></script>
+    </head>
+    <body>
+        <a id="pg1"></a>
+        <aside class="navbar">
+            <label class="hamburger-menu">
+                <input type="checkbox" checked>
+            </label>
+            <nav class="sidebar">
+                <a class="sideitem" href="#pg1">Home</a>
+                <a class="sideitem" href="#pg2">About</a>
+                <a class="sideitem" href="#pg3">Projects</a>
+                <a class="sideitem" href="#pg4">LeetCode</a>
+                <a class="sideitem" href="#pg5">Contact</a>
+                <div class="icons">
+                    <a class="sideitem" target="_blank" href="https://github.com/NlMBUS" id="icon"><img src="GitHub.png"; style="height: 70px; width: 70px"></a>
+                    <a class="sideitem" target="_blank" href="https://www.linkedin.com/in/abid-rahman-507476260/" id="icon"><img src="LinkedIn.png"; style="height: 70px; width: 70px"></a>
+                </div>
+            </nav>
+        </aside>
+        <div class="nav">
+            <div class="container">
+                <img src="Logo.png"; style="height: 75%">
+            </div>
+        </div>
+        
+        <section class="hidden">
+            <section id="home">
+                <div class="image">
+                    <img src="Abid.png" id="abid">
+                </div>
+                
+                <div class="greetings">
+                    <h2 style="color: #c70039; font-size: 400%">Hey, I'm</h2>
+                    <h1 style="font-size: 800%; text-shadow: 3px 3px #c70039">Abid Rahman</h1>
+                    <h2 style="color: #c70039; font-size: 400%">A software engineer</h2>
+                </div>
+            </section>
+        </section>
+       
+        
+        <section id="about">
+            <a id="pg2"></a>
+            <h1 class="line">About Me</h1>
+            <h2 class="line">I am currently a student at University of Windsor, getting my Computer</h2>
+            <h2 class="line">Science degree. More importantly, I enjoy coding during my free time!</h2>
+            <h2 class="line">Specifically, I enjoy developing websites/web applications, making</h2>
+            <h2 class="line">games, and working on competitive coding questions on LeetCode.</h2> 
+            <h2 class="line">I also love playing video games of varying genres, my favourite of</h2>
+            <h2 class="line">them being action adventure games and fighting games.</h2> 
+            <h2 class="line">Always seeking new opportunities/experiences, so feel free to connect with me!</h2>
+            <h2 class="line">(Check the sidebar or bottom of page for links)</h2>
+            <div class="wrapper">
+                <div class="box-area">
+                    <div class="box1"></div>
+                    <div class="box2"></div>
+                    <div class="box3"></div>
+                    <div class="box4"></div>
+                </div>
+            </div>
+        </section>
+
+        <a id="pg3"></a>
+        <h1 class="title">Here are some projects I've worked on!</h1>
+        <section id="projects">
+            <section class="project">
+                <a class="header"  target="_blank" href="https://github.com/NlMBUS/trials-game">Trials</a>
+                <h2 class="description">Original game made for the final summative assessment in ICS3U (2020) with PyGame in collaboration with Yazan Hailat. A tower defense game where
+                you fight waves of enemies to fight a boss at the end of each level. You can get weapons and fight complex AI.</h2>
+                <img src="TrialsSS.png" class="screenshot">
+            </section>
+            <section class="project">
+                <a class="header" target="_blank" href="https://github.com/NlMBUS/tictactoe">Tic-Tac-Toe</a>
+                <h2 class="description">A replication of Tic-Tac-Toe made using React (2023). Has a feature to store game data into a JSON file using fetch requests for the user's viewing.</h2>
+                <img src="TicTacToeSS.png" class="screenshot">
+            </section>
+            <section class="project">
+                <a class="header" target="_blank" href="https://github.com/NlMBUS/monster-hunter-paint">Monster Hunter Paint</a>
+                <h2 class="description">Microsoft Paint clone with Monster Hunter theme. Made for ICS3U midterm project (2020) with PyGame.
+                It has features such as a highlighter tool, polygon tool, stamps, a reset tool, and a music player on top of many of the default paint tools.</h2>
+                <img src="PaintSS.png" class="screenshot">
+            </section>
+        </section>
+
+
+        <a id="pg4"></a>
+        <h1 class="title">LeetCode Profile</h1>
+        <section id="leetcode">
+            <div class="profile">
+                <div class="hidden-profile">
+                    <h1 class="subtitle">User: NlMBUS</h1>
+                    <a id="nlmbus" target="_blank" href="https://leetcode.com/NlMBUS/">Check out my profile!</a>
+
+                    <h1 class="subtitle">Preferred Language: Python</h1>
+                    <img id="python" src="Python.png"; style="height: 200px; width: 200px">
+                    
+                    
+                    <h1 class="subtitle">Number of LeetCode Problems Solved By Difficulty</h1>
+                    <h1 class="first">Difficulty</h1>
+                    <h1 class="second">Number</h1>
+                    <ul>
+                        <div class="first">
+                            <li>Total</li>
+                            <li style="color: green">Easy</li>
+                            <li style="color: orange">Medium</li>
+                            <li style="color: red">Hard</li>
+                            <li><br/></li>
+                        </div>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="profile">
+                <div class="hidden-profile2">
+                    <h1 class="subtitle">Recommended Problems</h1>
+                    <a id="problems" target="_blank" style="margin-left: 225px" href="https://leetcode.com/problems/merge-intervals/">Merge Intervals</a>
+                    <h2 class="brief">A question where you are given a list of intervals, but some of the intervals overlap and it's your job to remake the list so that the intervals do not overlap.</h2>
+                    <a id="problems" target="_blank" style="margin-left: 30px" href="https://leetcode.com/problems/longest-substring-without-repeating-characters/">Longest Substring Without Repeating Characters</a>
+                    <h2 class="brief">This problem gives you the input of a string where some of its characters may repeat in a certain sequence, so you have to find the length of the longest substring that doesn't contain any repeating characters. </h2>
+                    <a id="problems" target="_blank" style="margin-left: 160px" href="https://leetcode.com/problems/sum-root-to-leaf-numbers/">Sum Root to Leaf Numbers</a>
+                    <h2 class="brief">A simple question where given the root of a binary tree, you have to find the sum of the paths from the root to all the leaves (using DFS) where each node is a single digit.</h2>
+                    <a id="problems" target="_blank" style="margin-left: 110px" href="https://leetcode.com/problems/remove-nth-node-from-end-of-list/">Remove Nth Node From End of List</a>
+                    <h2 class="brief">In this problem, you're  given the head of a linked list and a value n, you must remove the nth node from the end of the linked list and return the new head.</h2>
+                    <a id="problems" target="_blank" style="margin-left: 113px" href="https://leetcode.com/problems/nearest-exit-from-entrance-in-maze/">Nearest Exit from Entrance in Maze</a>
+                    <h2 class="brief">A difficult question where you are given a maze in the form of a 2D array ('.' represents an empty cell and '+' represents a wall) and a starting position. You have to use dynamic programming (BFS) to get the number of steps needed in the shortest path to reach the exit.</h2>
+                    <a id="problems" target="_blank" style="margin-left: 155px" href="Solutions.pdf">My Solutions & Explanations</a>
+                </div>
+            </div>
+            
+            <script>
+                fetch('https://faisal-leetcode-api.cyclic.app/NlMBUS')
+                .then((res) => {
+                    return res.json();
+                })
+                .then(data => {
+                    const dataList = 
+                    `<div class="second">
+                        <li>${data['totalSolved']}</li>
+                        <li>${data['easySolved']}</li>
+                        <li>${data['mediumSolved']}</li>
+                        <li>${data['hardSolved']}</li>
+                        <li><br/></li>
+                    </div>`
+                    document.querySelector('ul').insertAdjacentHTML('beforeend', dataList);
+                })
+            </script>
+
+        </section>
+
+        <a id="pg5"></a>
+        <h1 class="title">Contact Me</h1>
+        <section id="contact">
+            <form action="https://formsubmit.co/abidrahman6004@gmail.com" method="POST">
+                <h2 class="info" type="text" name="first-name" required>First Name</h2>
+                <input></input>
+                <h2 class="info" type="text" name="last-name" required>Last Name</h2>
+                <input></input>
+                <h2 class="info" type="email" name="email" required>Email</h2>
+                <input></input>
+                <a class="links" target="_blank" href="https://github.com/NlMBUS">GitHub</a>
+                <br/>
+                <a class="links" target="_blank" href="https://www.linkedin.com/in/abid-rahman-507476260/">LinkedIn</a>
+                <br/>
+                <a class="links" target="_blank" href="Resume.pdf">Resume</a>
+                <br/>
+                <h3 id="credits" style="color:white">Credits to Jason Toma for portrait and Faisal Shohag for the LeetCode API. Many images are not my own and some of the styles used in this website are inspired from others.</h3>
+                <textarea class="text" name="message"></textarea>
+                <button id="submit" type="submit">Send</button>
+            </form>
+        </section>
+    </body>
+</html>
