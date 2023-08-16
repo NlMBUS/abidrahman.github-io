@@ -19,14 +19,15 @@
                 <a class="sideitem" href="#pg4">LeetCode</a>
                 <a class="sideitem" href="#pg5">Contact</a>
                 <div class="icons">
-                    <a class="sideitem" target="_blank" href="https://github.com/NlMBUS" id="icon"><img src="GitHub.png"; style="height: 70px; width: 70px"></a>
-                    <a class="sideitem" target="_blank" href="https://www.linkedin.com/in/abid-rahman-507476260/" id="icon"><img src="LinkedIn.png"; style="height: 70px; width: 70px"></a>
+                    <a class="sideitem" target="_blank" href="mailto:abidrahman6004@gmail.com" id="icon"><img src="Email.png"; style="height: 60px; width: 60px"></a>
+                    <a class="sideitem" target="_blank" href="https://github.com/NlMBUS" id="icon"><img src="GitHub.png"; style="height: 60px; width: 60px"></a>
+                    <a class="sideitem" target="_blank" href="https://www.linkedin.com/in/abid-rahman-507476260/" id="icon"><img src="LinkedIn.png"; style="height: 60px; width: 60px"></a>
                 </div>
             </nav>
         </aside>
         <div class="nav">
             <div class="container">
-                <img src="Logo.png"; style="height: 75%">
+                <img src="Logo.png"; style="height: 98%">
             </div>
         </div>
         
@@ -134,7 +135,7 @@
             </div>
             
             <script>
-                fetch('https://faisal-leetcode-api.cyclic.app/NlMBUS')
+                fetch('https://leetcode-stats-api.herokuapp.com/NlMBUS')
                 .then((res) => {
                     return res.json();
                 })
@@ -163,15 +164,19 @@
                 <input></input>
                 <h2 class="info" type="email" name="email" required>Email</h2>
                 <input></input>
+                <br/>
+                <a class="links" target="_blank" href="mailto:abidrahman6004@gmail.com">Email</a>
+                <br/>
                 <a class="links" target="_blank" href="https://github.com/NlMBUS">GitHub</a>
                 <br/>
                 <a class="links" target="_blank" href="https://www.linkedin.com/in/abid-rahman-507476260/">LinkedIn</a>
                 <br/>
                 <a class="links" target="_blank" href="Resume.pdf">Resume</a>
                 <br/>
-                <h3 id="credits" style="color:white">Credits to Jason Toma for portrait and Faisal Shohag for the LeetCode API. Many images are not my own and some of the styles used in this website are inspired from others.</h3>
-                <textarea class="text" name="message"></textarea>
+                <h3 id="credits" style="color:white">Credits to Jason Toma for portrait and Jeremy Tsaii for the LeetCode API. As a disclaimer, many images are not my own and some of the styles used in this website are inspired from others.</h3>
                 <button id="submit" type="submit">Send</button>
+                <textarea class="text" name="message"></textarea>
+                
             </form>
         </section>
     </body>
